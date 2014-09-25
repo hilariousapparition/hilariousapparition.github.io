@@ -1,11 +1,10 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-<meta charset="utf-8" /> 
-<title>无限级折叠菜单 1.01 JS版</title> 
-<meta name="keywords" content="hj1227 原创无限级折叠菜单 1.01js版"> 
-<meta name="description" content="hj1227 原创无限级折叠菜单 1.01js版"> 
-<style> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD><TITLEHow to pick the perfect video game</TITLE>
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<META name=keywords content="How to pick the perfect video game">
+<META name=description content="How to pick the perfect video game">
+<STYLE> 
 <!-- 
 body,ul,h3 {margin:0px; padding:0px;} 
 li {list-style-type:none;} 
@@ -27,11 +26,11 @@ border:#EEE 1px solid;
 font-size:12px; 
 } 
 #menu ul { 
-background:url("http://demo.jb51.net/js/2011/caidan/ul-bg.gif") repeat-y 5px 0px; overflow:hidden; 
+background:url("game2_files/ul_bg[1].gif") repeat-y 5px 0px; overflow:hidden; 
 } 
 #menu ul li { 
 padding:5px 0 2px 15px; 
-background:url("http://demo.jb51.net/js/2011/caidan/tree-ul-li.gif") no-repeat 5px -32px; 
+background:url("game2_files/tree_ul_li[1].gif") no-repeat 5px -32px; 
 } 
 #menu ul li ul {display:none;} 
 #menu ul li em { 
@@ -41,7 +40,7 @@ width:15px;
 float:left; 
 height:15px; 
 margin-left:-14px; 
-background:url("http://demo.jb51.net/js/2011/caidan/tree-ul-li.gif") no-repeat -32px 2px; 
+background:url("game2_files/tree_ul_li[1].gif") no-repeat -32px 2px; 
 } 
 #menu ul li em.off { 
 background-position: -17px -18px; 
@@ -53,137 +52,468 @@ background-color:#FFF;
 display:block; 
 } 
 --> 
-</style> 
-</head> 
-<body> 
-<div id="menu"> 
-<h3>Do you want  to avoid using much of your brain?</h3> 
+</STYLE>
 
-<ul> 
-<li><em></em><a href='javascript:void(0);'>YES菜单_1_1</a> 
-
-<ul> 
-How are your reflexes?
-<li><em></em><a href='javascript:void(0);'>Unreal菜单_2_1</a> 
-
-<ul> 
-Are you on drugs?
-<li><em></em><a href='javascript:void(0);'>Yes菜单_3_1</a> 
-<ul> 
-<li id='end'>Rez 
-</li> 
-</ul> 
-
-</li> 
-<li id='end'><em></em><a href='javascript:void(0);'>No菜单_3_2</a> 
-<ul> 
-Do you want to feel like you are?
-<li><em></em><a href='javascript:void(0);'>Yes菜单_4_1</a> 
-<ul> 
-<li id='end'>Geometry Wars Retro Evolved
-</li>
-</ul>
-
-<li id='end'><em></em><a href='javascript:void(0);'>No菜单_5_2</a></li> 
-<ul> 
-
-<li><em></em><a href='javascript:void(0);'>Superb菜单_5_1</a></li> 
-<ul> 
-You want to rock out?
-<li><em></em><a href='javascript:void(0);'>Yes菜单_5_1</a></li> 
-<ul> 
-<li id='end'>Rockband3
-</li> 
-</ul> 
-<li id='end'><em></em><a href='javascript:void(0);'>No菜单_5_2</a></li> 
-<ul> 
-<li id='end'>IKARUGA
-</li> 
-</ul> 
-</ul>
-<li id='end'><em></em><a href='javascript:void(0);'>Average菜单_5_2</a></li> 
-<ul> 
-Are 2 buttons too many for you?
-<li><em></em><a href='javascript:void(0);'>Yes菜单_5_1</a></li> 
-<ul> 
-<li id='end'>PACMAN
-</li> 
-</ul> 
-<li id='end'><em></em><a href='javascript:void(0);'>No菜单_5_2</a></li> 
-<ul> 
-<li id='end'>PUNCH dut!
-</li> 
-</ul> 
-
-
-</ul>
-</ul> 
-</ul> 
-</ul> 
-</li> 
-<li id='end'><em></em><a href='javascript:void(0);'>菜单_4_2</a> 
-<ul> 
-<li><a href='javascript:void(0);'>菜单_5_1</a></li> 
-<li id='end'><a href='javascript:void(0);'>菜单_5_2</a></li> 
-</ul> 
-
-
-
-</li> 
-</ul> 
-
-</li> 
-<li id='end'><em></em><a href='javascript:void(0);'>菜单_2_2</a> 
-<ul> 
-<li><em></em><a href='javascript:void(0);'>菜单_3_1</a> 
-<ul> 
-<li><em></em><a href='javascript:void(0);'>菜单_4_1</a> 
-<ul> 
-<li><a href='javascript:void(0);'>菜单_5_1</a></li> 
-<li id='end'><a href='javascript:void(0);'>菜单_5_2</a></li> 
-</ul> 
-
-</li> 
-<li id='end'><em></em><a href='javascript:void(0);'>菜单_4_2</a> 
-<ul> 
-<li><a href='javascript:void(0);'>菜单_5_1</a></li> 
-<li id='end'><a href='javascript:void(0);'>菜单_5_2</a></li> 
-</ul> 
-
-</li> 
-</ul> 
-
-</li> 
-<li id='end'><em></em><a href='javascript:void(0);'>菜单_3_2</a> 
-<ul> 
-<li><em></em><a href='javascript:void(0);'>菜单_4_1</a> 
-<ul> 
-<li><a href='javascript:void(0);'>菜单_5_1</a></li> 
-<li id='end'><a href='javascript:void(0);'>菜单_5_2</a></li> 
-</ul> 
-
-</li> 
-<li id='end'><em></em><a href='javascript:void(0);'>菜单_4_2</a> 
-<ul> 
-<li><a href='javascript:void(0);'>菜单_5_1</a></li> 
-<li id='end'><a href='javascript:void(0);'>菜单_5_2</a></li> 
-</ul> 
-
-</li> 
-</ul> 
-
-</li> 
-</ul> 
-
-</li> 
-</ul> 
-
-</li>
- 
-
- 
-</div> 
-<script type="text/javascript"> 
+<META name=GENERATOR content="MSHTML 8.00.7600.16625"></HEAD>
+<BODY>
+<DIV style="WIDTH: 649px; HEIGHT: 12785px" id=menu>
+<H3>Do you want to avoid using much of your brain?</H3>
+<UL>
+<LI><EM></EM><A href="javascript:void(0);">YES</A> 
+<UL>How are your reflexes? 
+<LI><EM></EM><A href="javascript:void(0);">Unreal2_1</A> 
+<UL>Are you on drugs? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_3_1</A> 
+<UL>
+<LI id=end>Rez </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_3_2</A> 
+<UL>Do you want to feel like you are? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_4_1</A> 
+<UL>
+<LI id=end>Geometry Wars Retro Evolved </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_4_2</A> 
+<UL>How's your timing? 
+<LI><EM></EM><A href="javascript:void(0);">Superb_5_1</A> 
+<UL>You want to rock out? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_6_1</A> 
+<UL>
+<LI id=end>Rockband 3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_6_2</A> 
+<UL>
+<LI id=end>IKARUGA </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Average_5_2</A> 
+<UL>Are 2 buttons too many for you? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_6_1</A> 
+<UL>
+<LI id=end>PACMAN </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_6_2</A> 
+<UL>
+<LI id=end>PUNCH-OUT!! </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Average2_2</A> 
+<UL>Do you want to point and click click click click...? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_3_1</A> 
+<UL>Do you plan on playing for the next week straight? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_4_1</A> 
+<UL>
+<LI id=end>World of Warcraft </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_4_2</A> 
+<UL>
+<LI id=end>Diablo II </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_3_2</A> 
+<UL>Do you want the hardest game ever? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_4_1</A> 
+<UL>
+<LI id=end>Devil May Cry 3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_4_2</A> 
+<UL>
+<LI id=end>Super Monkey Ball </LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">NO</A> 
+<UL>Maximum Creativity? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_2_1</A> 
+<UL>
+<LI id=end>Minecraft </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_2_2</A> 
+<UL>Do you want to solve some puzzles? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_3_1</A> 
+<UL>Do you feel the need for a storyline as well? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_4_1</A> 
+<UL>Are you an Edward-Gorey fan? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_5_1</A> 
+<UL>
+<LI id=end>Limbo </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_5_2</A> 
+<UL>Looking for crazy Japanese awesomeness? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_6_1</A> 
+<UL>
+<LI id=end>Kuaihun </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_6_2</A> 
+<UL>Do you want shiny textures or indi magic? 
+<LI><EM></EM><A href="javascript:void(0);">Indi_7_1</A> 
+<UL>
+<LI id=end>Braid </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Shiny_7_2</A> 
+<UL>
+<LI id=end>Portal 2 </LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_4_2</A> 
+<UL>Kick it oldschool 
+<LI><EM></EM><A href="javascript:void(0);">Yes_5_1</A> 
+<UL>
+<LI id=end>Tetris </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_5_2</A> 
+<UL>
+<LI id=end>Lumines </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_3_2</A> 
+<UL>Do you enjoy simulations? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_4_1</A> 
+<UL>Do you want to be in charge of a life or an entire city? 
+<LI><EM></EM><A href="javascript:void(0);">Life_5_1</A> 
+<UL>
+<LI id=end>Sim 3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">City_5_2</A> 
+<UL>
+<LI id=end>Simcity 2000 </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_4_2</A> 
+<UL>Do you have multiple local players? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_5_1</A> 
+<UL>Button mashable? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_6_1</A> 
+<UL>Does realistic violence upset you? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_7_1</A> 
+<UL>
+<LI id=end>Super Smash Brothers </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_7_2</A> 
+<UL>Does you like big-ass weapons? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_8_1</A> 
+<UL>
+<LI id=end>Soulcalibur </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_8_2</A> 
+<UL>Do you want to tear out your opponent's spine? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>
+<LI id=end>Mortal Kombat </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>
+<LI id=end>Street Fighter IV </LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_6_2</A> 
+<UL>Do you own any offical team jerseys? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_7_1</A> 
+<UL>
+<LI id=end>EA sports </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_7_2</A> 
+<UL>Does the sound of squealing tires exciting you? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_8_1</A> 
+<UL>Should racing games be based on reality? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>You want to be a badass? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Paradise </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>Rally or track? 
+<LI><EM></EM><A href="javascript:void(0);">Rally_11_1</A> 
+<UL>
+<LI id=end>Sega Rally </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Track_11_2</A> 
+<UL>
+<LI id=end>GT racing </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>Super speed or turtle shells? 
+<LI><EM></EM><A href="javascript:void(0);">Speed_10_1</A> 
+<UL>
+<LI id=end>Zero racing </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Shell_10_2</A> 
+<UL>
+<LI id=end>Mario Kart 64 </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_8_2</A> 
+<UL>Do you think professional wrestling is stupid? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>Skate or die putt? 
+<LI><EM></EM><A href="javascript:void(0);">Skate_10_1</A> 
+<UL>
+<LI id=end>Pro skater 3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Putt_10_2</A> 
+<UL>
+<LI id=end>Hot shots Golf </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>
+<LI id=end>WWF: No Mercy </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_5_2</A> 
+<UL>Do you want to lose yourself in another world? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_6_1</A> 
+<UL>Do you yearn to level up your character? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_7_1</A> 
+<UL>Do you fancy yourself a tactician? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_8_1</A> 
+<UL>Mobile or Console? 
+<LI><EM></EM><A href="javascript:void(0);">Mobile_9_1</A> 
+<UL>
+<LI id=end>Advance Wars </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Console_9_2</A> 
+<UL>
+<LI id=end>Final Fantasy: tactics </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_8_2</A> 
+<UL>Do you want a game made in Japan or America? 
+<LI><EM></EM><A href="javascript:void(0);">Japan_9_1</A> 
+<UL>Do you want some large-scale army battles? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Suikoden II </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>Looking for real-time battles? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_11_1</A> 
+<UL>
+<LI id=end>Secret of Mana </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_11_2</A> 
+<UL>Are you capable of making fun of yourself? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_12_1</A> 
+<UL>
+<LI id=end>Earth Bound </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_12_2</A> 
+<UL>Do you have a serious dragon fetish? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_13_1</A> 
+<UL>
+<LI id=end>Dragon Quest </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_13_2</A> 
+<UL>Care to play the greatest game of all time? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_14_1</A> 
+<UL>
+<LI id=end>Chorono of Chronicles </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_14_2</A> 
+<UL>Active Battle System or Conditional Turn-based Battle? 
+<LI><EM></EM><A href="javascript:void(0);">ABS_15_1</A> 
+<UL>
+<LI id=end>Final Fantasy VI </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">CTB_15_2</A> 
+<UL>
+<LI id=end>Final Fantasy X </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">USA_9_2</A> 
+<UL>Are you cool without getting to use a lightsaber? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Fallout 2 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>
+<LI id=end>Star Wars: The Old Republic </LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_7_2</A> 
+<UL>Do you like to be teriffied? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_8_1</A> 
+<UL>Want to collect weapons but too afraid to use any ammo? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>
+<LI id=end>Biohazard 3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>Do you want to be confused and horrified the entire time? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Silent Hill 2 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>
+<LI id=end>Bioshock </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_8_2</A> 
+<UL>Is adventure enough for you, or are you an action junky? 
+<LI><EM></EM><A href="javascript:void(0);">Clean_9_1</A> 
+<UL>Want some of the best acting and plot ever put into a game? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Garbriel knight </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>More childish or less? 
+<LI><EM></EM><A href="javascript:void(0);">More_11_1</A> 
+<UL>How far fetched do you want to get? 
+<LI><EM></EM><A href="javascript:void(0);">Absurd_12_1</A> 
+<UL>
+<LI id=end>Day of the Tentacle </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Regular_12_2</A> 
+<UL>
+<LI id=end>Monkey Island </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Less_11_2</A> 
+<UL>
+<LI id=end>Grim Fandango </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Junky_9_2</A> 
+<UL>Do you want a little role playing with your action? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>Do you have a fetish for any Disney character? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_11_1</A> 
+<UL>
+<LI id=end>Kingdom Hearts </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_11_2</A> 
+<UL>What about outer space? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_12_1</A> 
+<UL>
+<LI id=end>Mass effects 2 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_12_2</A> 
+<UL>Feel like throwing some first person shooting? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_13_1</A> 
+<UL>
+<LI id=end>Deus Ex: Human Revolution </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_13_2</A> 
+<UL>How about some platforming? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_14_1</A> 
+<UL>
+<LI id=end>Castlevania </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_14_2</A> 
+<UL>
+<LI id=end>The Elder Scrolls V: Skyrim </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>You want a female or male character? 
+<LI><EM></EM><A href="javascript:void(0);">Female_11_1</A> 
+<UL>Alien conspiracy or lost relics? 
+<LI><EM></EM><A href="javascript:void(0);">Alien_12_1</A> 
+<UL>
+<LI id=end>Beyond Good and Evil </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Relics_12_2</A> 
+<UL>
+<LI id=end>Tomb Raider </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Male_11_2</A> 
+<UL>Link? 
+<LI><EM></EM><A href="javascript:void(0);">Link!_12_1</A> 
+<UL>Old school or new school? 
+<LI><EM></EM><A href="javascript:void(0);">Old_13_1</A> 
+<UL>
+<LI id=end>Zelda </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">New_13_2</A> 
+<UL>Do you like gaming with a wiimote? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_14_1</A> 
+<UL>
+<LI id=end>Zelda </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_14_2</A> 
+<UL>
+<LI id=end>Zelda </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Nope_12_2</A> 
+<UL>You want a beautiful crafted Japanese story? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_13_1</A> 
+<UL>Do you learn more towards the art or the story? 
+<LI><EM></EM><A href="javascript:void(0);">Art_14_1</A> 
+<UL>
+<LI id=end>Okami </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Story_5_2</A> 
+<UL>
+<LI id=end>ICO </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_13_2</A> 
+<UL>Open world? 
+<LI><EM></EM><A href="javascript:void(0);">Open_14_1</A> 
+<UL>Do you want to be an assasin, criminal or cowboy? 
+<LI><EM></EM><A href="javascript:void(0);">Assasin_15_1</A> 
+<UL>
+<LI id=end>Assasin's Creed II </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Criminal_15_2</A> 
+<UL>
+<LI id=end>Great Theft Auto IV </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Cowboy_15_3</A> 
+<UL>
+<LI id=end>Read dead redemption </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Closed_14_2</A> 
+<UL>Do you want stealth to be awarded? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_15_1</A> 
+<UL>Are you Batman? Or do you want to be? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_16_1</A> 
+<UL>
+<LI id=end>Batman </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_16_2</A> 
+<UL>
+<LI id=end>Metal Gear Solid 3 </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_15_2</A> 
+<UL>Keep things simple? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_16_1</A> 
+<UL>
+<LI id=end>The Behemoth </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_16_2</A> 
+<UL>Do you want to kill gods(or things decided godlikely)? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_17_1</A> 
+<UL>Do you enjoy brutal gratuitous carnage? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_18_1</A> 
+<UL>
+<LI id=end>God of War </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_18_2</A> 
+<UL>
+<LI id=end>Shadow of the Colossus </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_17_2</A> 
+<UL>Do you want to run on walls or keep it more grounded? 
+<LI><EM></EM><A href="javascript:void(0);">Walls_18_1</A> 
+<UL>
+<LI id=end>Prince of Persia:The Sands of Time </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Ground_18_2</A> 
+<UL>
+<LI id=end>Uncharted 2 </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_6_2</A> 
+<UL>Would you rather jump on platforms or shoot someone in the face ? 
+<LI><EM></EM><A href="javascript:void(0);">Platform_7_1</A> 
+<UL>Do you want to shoot people while jumping platforms? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_8_1</A> 
+<UL>More run-and-gun, less platforming? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>
+<LI id=end>Contra3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>Add some adventure to your action/platform? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>SUPER METROID </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>
+<LI id=end>Rockman(Megaman) 2 </LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_8_2</A> 
+<UL>Do you have an affection for Italian plumbers? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>Do you want the controls kept as simple as possible? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Super Mario Bro3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>Kept it 2D or break it a third dimension? 
+<LI><EM></EM><A href="javascript:void(0);">2D_11_1</A> 
+<UL>
+<LI id=end>Super Mario World </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">3D_11_2</A> 
+<UL>Do you want some 2D throwback levels in the mix? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_12_1</A> 
+<UL>
+<LI id=end>Super Mario Galaxy 2 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_12_2</A> 
+<UL>
+<LI id=end>Super Mario N64 </LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>Do you yearn for 1980's cartoons? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>DuckTales </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>Do you actually enjoy under-water levels? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_11_1</A> 
+<UL>
+<LI id=end>Donkey Kong </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_11_2</A> 
+<UL>Want to keep it indi? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_12_1</A> 
+<UL>
+<LI id=end>Super Meat Boy </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_12_2</A> 
+<UL>
+<LI id=end>Psychonauts </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Face_7_2</A> 
+<UL>First or third person view? 
+<LI><EM></EM><A href="javascript:void(0);">1st_8_1</A> 
+<UL>Are you looking for a single player game? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_9_1</A> 
+<UL>Keyboard only or do you want a mouse as well? 
+<LI><EM></EM><A href="javascript:void(0);">Keys_10_1</A> 
+<UL>
+<LI id=end>DOOM II:HELL ON EARTH </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">Mouse_10_2</A> 
+<UL>
+<LI id=end>Half-life </LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_9_2</A> 
+<UL>Do you like games without a re-spawn? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_10_1</A> 
+<UL>
+<LI id=end>Counter-Strike </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_10_2</A> 
+<UL>Ridiculous non-stop action, rocket jumps, laser guns etc.? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_11_1</A> 
+<UL>
+<LI id=end>Quake </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_11_2</A> 
+<UL>Heavy reliance on team-play and strategy? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_12_1</A> 
+<UL>
+<LI id=end>Team Fortress 2 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_12_2</A> 
+<UL>Do you like being called a n00b by 8 year olds? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_13_1</A> 
+<UL>
+<LI id=end>Halo 3 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_13_2</A> 
+<UL>Zombies? 
+<LI><EM></EM><A href="javascript:void(0);">Yes_14_1</A> 
+<UL>
+<LI id=end>Left4Dead 2 </LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">No_14_2</A> 
+<UL>
+<LI id=end>Call of Duty 4 </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL>
+<LI id=end><EM></EM><A href="javascript:void(0);">3rd_8_2</A> 
+<UL>
+<LI id=end>Gears of War 2 </LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></LI></UL></DIV>
+<SCRIPT type=text/javascript> 
 (function(e){ 
 for(var _obj=document.getElementById(e.id).getElementsByTagName(e.tag),i=-1,em;em=_obj[++i];){ 
 em.onclick = function(){ //onmouseover 
@@ -208,6 +538,7 @@ break;
 } 
 } 
 })({id:'menu',tag:'em'}); 
-</script> 
-</body> 
-</html> 
+</SCRIPT>
+</BODY>
+</HTML>
+
