@@ -1,0 +1,21 @@
+/*基本信息*/
+#body {font:12px Tahoma;margin:0px;text-align:left;background:#FFF;}
+a:link,a:visited {font-size:12px;text-decoration:none;}
+a:hover{}
+/*页面层容器*/
+#container {width:100px;margin:10px auto}
+
+/*页面头部*/
+#header {margin:0 center;height:300px;
+text-align:center;
+background:url(logo.jpg) no-repeat;
+background-position:top;
+background-attachment:fixed;}
+
+/*页面主体*/
+#PageBody {width:800px;margin:0 auto;height:400px;background:#CCFF00}
+
+/*页面底部*/
+#Footer {margin:0 auto;height:400px;
+background:url(logo.jpg) no-repeat;
+background-position:top;}
