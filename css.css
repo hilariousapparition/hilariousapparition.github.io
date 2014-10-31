@@ -8,7 +8,7 @@ a:hover{}
 /*页面头部*/
 #header {margin:0 center;height:300px;
 text-align:center;
-background:url(logo.jpg) no-repeat;
+background:url(logo.gif) no-repeat;
 background-position:top;
 background-attachment:fixed;}
 
@@ -17,5 +17,5 @@ background-attachment:fixed;}
 
 /*页面底部*/
 #Footer {margin:0 auto;height:400px;
-background:url(logo.jpg) no-repeat;
+background:url(logo.gif) no-repeat;
 background-position:top;}
